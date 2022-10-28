@@ -1,0 +1,227 @@
+/* universal */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+header {
+    height: 5.3125rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: solid 1px #c6c1c1;
+    background-color: white;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 1.875rem;
+}
+
+header h1 {
+    padding-left: 1.875rem;
+    font-weight: 400;
+    font-family: "Roboto-mono";
+    font-size: 1.5rem;
+}
+
+header img {
+    height: 1rem;
+    padding-left: 1rem;
+}
+
+header nav a {
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+/* main */
+.main{
+    position: relative;
+    top: 5.3125rem;
+}
+
+.landing{
+    height: 43.5rem;
+    width: 100%;
+    background-image: url('images/banner-landingpage.jpg')
+}
+
+.landing-center{
+    color: white;
+    background-color: #9dc20a;
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+    top: 10.625rem;
+    left: 6.25rem;
+    bottom: 10.625rem;
+    border: 1px solid #979797;
+    border-radius: 4px;
+}
+
+.landing-center h2{
+    padding-top: 2rem;
+    font-family: cursive;
+    font-size: 2.25rem;
+}
+
+.landing-center h3{
+    font-size: 3.125rem;
+    line-height: 1.4;
+}
+
+.landing-center p{
+    font-size: 1.25rem;
+    margin-top: 0.75rem;
+}
+
+.landing-center span{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.landing-center button{
+    margin-bottom: 3.5rem;
+    margin-top: 1.625rem;
+    background-color: #4A4A4A;
+    color: white;
+    border-radius: 4px;
+    max-width: 25.5rem;
+    height: 4rem;
+    font-size: 1.25rem;
+}
+
+.landing-center button:hover{
+    cursor: pointer;
+}
+
+/* features */
+.features-section{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 3.5% 2.875rem;
+}
+
+.feature{
+    background-color: white;
+    padding: 2rem;
+    margin: 2.375rem;
+    display: block;
+    flex: 1;
+    height: 39.6875rem;
+    text-align: center;
+}
+
+.feature .image-container{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.feature .image-container img{
+    display: block;
+    max-width: 100%;
+    max-height: 65%;
+}
+
+.content h2{
+    color: #4a4a4a;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    font-weight: bold;
+}
+
+.content p{
+    color: #4a4a4a;
+}
+
+/* Filters */
+.filters{
+    background-color: #4a4a4a;
+}
+
+.filter-content{
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.filter-content h2{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.filter-content p{
+    color: white;
+    line-height: 1.4;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.filter-images{
+    display: flex;
+    width: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.image-container{
+    display: block;
+    padding-bottom: 4rem;
+}
+
+.image-container img{
+    display: block;
+    max-width: 100%;
+}
+
+/* Quotes */
+.quote{
+    display: flex;
+    justify-content: center;
+}
+
+.quote h2{
+    font-size: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    line-height: 1.1;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-image{
+    display: block;
+    padding-top: 5rem;
+    padding-left: 2rem;
+}
+
+.quote-image img{
+    display: block;
+    max-width: 100%;
+}
+
+.footer{
+    background-color: #9b9b9b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.875rem;
+    padding: 0 2rem;
+}
